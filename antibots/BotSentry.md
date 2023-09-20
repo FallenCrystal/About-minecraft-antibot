@@ -30,7 +30,7 @@ BotSentry作为一个老牌~~圈钱~~的~~反~~机器人.
 ## 所谓的数据包检查:
 
 控制台Filter:
-```botsentry log filter
+```java
 public class p {
     private static Filter a = null;
     private static boolean b = true;
@@ -118,7 +118,7 @@ public class p {
 
 ## 使用ConcurrentHashMap做黑名单
 
-```botsentry blacklist
+```java
 public class k {
     private static final ConcurrentHashMap<String, Boolean> i = new ConcurrentHashMap();
     private static final ConcurrentHashMap.KeySetView<String, Boolean> j = ConcurrentHashMap.newKeySet();
